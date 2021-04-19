@@ -1,0 +1,34 @@
+html,body{
+    height: 100vh;
+    margin: 0;
+}
+/* image de fond */
+.bloc1{
+    height: 100%;
+    background-image: url(../img/coworking-paysage.jpeg);
+    background-size: cover;
+}
+/* titre et article 1 */
+.bloc2{
+    background-color: aqua;
+    height: 100px;
+    padding:20px;
+    padding-bottom: 0px;
+}
+/* titre et article 2 */
+.bloc3{
+    background-color: rgb(193, 193, 240);
+    height:100px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+/* liste */
+footer>ul{
+    list-style-type: none;
+    padding:0;
+    text-align: center;
+}
+/* suppression marge sur les titres */
+h2{
+    margin:0;
+}

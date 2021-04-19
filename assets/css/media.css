@@ -1,0 +1,32 @@
+/* orientation portrait */
+@media (orientation: portrait) {
+    .bloc1{
+        background-image: url(../img/coworking-portrait.jpeg);
+    }
+}
+/* moitié d'écran pour resolution >1024 */
+@media (min-width:1024px) {
+    .bloc1{
+        height: 50%;
+        background-image: url(../img/coworking-paysage.jpeg);
+    }
+}
+/* titre et article les uns à côtés des autres */
+@media (min-width:1024px) {
+    .bloc2et3{
+        display: flex;
+        }
+    .bloc2{
+        width: 50%;
+    }
+    .bloc3{
+        width: 50%;
+    }
+}
+/* liste répartie horizontalement */
+@media (min-width:576px){
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+      }
+}
